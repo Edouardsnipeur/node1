@@ -1,0 +1,50 @@
+.root{
+    width: 485px;
+    margin: 40px auto;
+    position: relative;
+    background-color: rgba(238,220,179,0.1);
+    font-family: sans-serif;
+}
+textarea{
+    width: 475px;
+    background-color: #ccc;
+    height: 50px;
+    font-size: 3em;
+    text-align: right;
+    resize: none;
+    overflow: hidden;
+}
+.ligne{
+
+
+}
+label{
+
+    display: inline-block;
+    box-sizing: border-box;
+    padding-top: 13px;
+    background-color: #ccc;
+    width: 117px;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 60px;
+    font-size: 1.8em;
+    margin: 2px 0;
+
+}
+label:hover{
+    background-color: rgba(126,175,238,0.94)
+}
+.chiffre{
+    background-color: #eee;
+}
+.chiffre:hover{
+    background-color: #bbb;
+
+}
+.chiffre:active{
+    background-color: #aaa;
+}
+label:active{
+    background-color: rgba(80,108,238,0.94)
+}
